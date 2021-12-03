@@ -1,0 +1,50 @@
+* {
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    font-size: 17px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+li a:hover {
+    color: grey;
+}
+
+#navbar-logo {
+    width: 100%;
+}
+
+#navbar-logo-mobile {
+    margin: auto;
+    height: 40px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.sm-show {
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .sm-hide {
+        display: none;
+    }
+
+    .sm-show {
+        display: block;
+    }
+}
